@@ -92,3 +92,15 @@ a:hover, a:active {
   color: #ad4b16;
   text-decoration: underline;
 }
+
+.one-half .desc-two-header a:visited {
+    text-decoration: none;
+}
+
+.one-half .desc-two-header a:hover {
+    text-decoration: none;
+}
+
+.one-half .desc-two-header a:active {
+    text-decoration: none;
+}
