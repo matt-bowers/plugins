@@ -25,7 +25,7 @@ body {
     line-height: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .desc-two-header {
@@ -91,4 +91,16 @@ a, a:visited {
 a:hover, a:active {
   color: #ad4b16;
   text-decoration: underline;
+}
+
+.one-half .desc-two-header a:visited {
+    text-decoration: none;
+}
+
+.one-half .desc-two-header a:hover {
+    text-decoration: none;
+}
+
+.one-half .desc-two-header a:active {
+    text-decoration: none;
 }
