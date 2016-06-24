@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     text-align: center;
 }
 
@@ -56,7 +56,7 @@ body {
 .content-desc {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 13px;
-  max-width: 670px;
+  max-width: 550px;
   margin: 0 auto;
   float: none;
   color: #555555;
@@ -65,5 +65,30 @@ body {
 }
 
 .content-desc ul {
-  list-style-type: none;
+  text-align: left;
+  margin: 0 auto;
+  float: none;
+}
+
+.desc-two-header {
+  padding: 30px 0 25px 0;
+}
+
+.desc-one p {
+  max-width: 740px;
+  margin: 0 auto;
+  float: none;
+}
+
+a, a:visited {
+  font-weight: 500;
+  color: #e46e2e;
+  text-decoration: none;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+a:hover, a:active {
+  color: #ad4b16;
+  text-decoration: underline;
 }
