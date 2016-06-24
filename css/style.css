@@ -1,9 +1,6 @@
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto !important;
-    float: none !important;
 }
 
 .header {
@@ -17,10 +14,7 @@ body {
 .desc-one {
     font-size: 13px;
     color: #555555;
-    max-width: 700px;
     line-height: 20px;
-    margin: 0 auto !important;
-    float: none !important;
     padding-left: 15px;
     padding-right: 15px;
 }
