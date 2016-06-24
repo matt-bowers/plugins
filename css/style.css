@@ -80,6 +80,11 @@ body {
   float: none;
 }
 
+.column .desc-two-header a {
+    color: #555555;
+    text-decoration: none;
+}
+
 a, a:visited {
   font-weight: 500;
   color: #e46e2e;
@@ -91,16 +96,4 @@ a, a:visited {
 a:hover, a:active {
   color: #ad4b16;
   text-decoration: underline;
-}
-
-.one-half .desc-two-header a:visited {
-    text-decoration: none;
-}
-
-.one-half .desc-two-header a:hover {
-    text-decoration: none;
-}
-
-.one-half .desc-two-header a:active {
-    text-decoration: none;
 }
