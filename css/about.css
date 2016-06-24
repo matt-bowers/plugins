@@ -174,7 +174,7 @@ html.fp-enabled,
     display: block;
     width: 14px;
     height: 13px;
-    margin: 7px;
+    margin-bottom: 14px;
     position:relative;
 }
 .fp-slidesNav ul li {
@@ -189,6 +189,8 @@ html.fp-enabled,
     height: 100%;
     cursor: pointer;
     text-decoration: none;
+    margin: 0 auto;
+    float: none;
 }
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,
@@ -198,19 +200,20 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+    background: #e46e2e;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 4px;
-    width: 4px;
+    height: 6px;
+    width: 6px;
     border: 0;
-    background: #333;
+    background: #BDBDBD;
     left: 50%;
     top: 50%;
-    margin: -2px 0 0 -2px;
+    margin: -3px 0 0 -3px;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
