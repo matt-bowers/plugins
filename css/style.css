@@ -85,6 +85,25 @@ body {
     text-decoration: none;
 }
 
+.nav-button {
+  margin-top: 50px;
+  padding: 20px;
+  -webkit-animation: navbtn-anim ease 4s infinite;
+  animation: navbtn-anim ease 4s infinite;
+}
+
+@keyframes navbtn-anim{
+  0% { transform: translate(0px,0px); }
+  50% { transform: translate(0px,20px); }
+  100% { transform: translate(0px,0px); }
+}
+
+@-webkit-keyframes navbtn-anim {
+  0% { transform: translate(0px,0px); }
+  50% { transform: translate(0px,20px); }
+  100% { transform: translate(0px,0px); }
+}
+
 a, a:visited {
   font-weight: 500;
   color: #e46e2e;
