@@ -88,6 +88,7 @@ body {
 .nav-button {
   margin-top: 50px;
   padding: 20px;
+  -webkit-animation: navbtn-anim ease 4s infinite;
   animation: navbtn-anim ease 4s infinite;
 }
 
