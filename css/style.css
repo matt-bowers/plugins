@@ -86,10 +86,21 @@ body {
 }
 
 .nav-button {
+  width: 68px;
+  height: 57px;
+  object-fit: cover;
+  object-position: 0 0;
+  overflow: hidden;
   margin-top: 50px;
   padding: 20px;
   -webkit-animation: navbtn-anim ease 4s infinite;
   animation: navbtn-anim ease 4s infinite;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.nav-button:hover {
+  object-position: 0 -17px;
 }
 
 @keyframes navbtn-anim{
