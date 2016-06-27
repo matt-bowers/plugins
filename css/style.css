@@ -85,6 +85,10 @@ body {
     text-decoration: none;
 }
 
+.desc-two-header:hover a{
+  color: #e46e2e;
+}
+
 .nav-button {
   width: 68px;
   height: 57px;
