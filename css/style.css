@@ -22,10 +22,9 @@ body {
 .desc-two {
     font-size: 13px;
     color: #555555;
-    line-height: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .desc-two-header {
@@ -51,6 +50,7 @@ body {
 
 .content-img {
   padding: 40px 0 35px 0;
+  height: 50px;
 }
 
 .content-desc {
